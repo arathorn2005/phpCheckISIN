@@ -10,3 +10,5 @@ How this works in theory, please read within [Wikipedia](https://de.wikipedia.or
 $cv_test = new isin_validate("DE000BAY0017");
 echo $cv_test->isin_check();
 ```
+
+The result will be ```true``` if the check is succesful, otherwise ```false```.
